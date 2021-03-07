@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: MediumTurquoise;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+  background: #ccc;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: clamp(16px, 5vw, 40px);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: MediumTurquoise;
+}
+
+main {
+}
+
+.review-card {
+  background: rgb(118, 171, 233);
+
+  min-height: 480px;
+  height: 280px;
+  width: 280px;
+  padding: 10px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 10px solid #fffff9;
+  border-radius: 2%;
+
+  color: rgb(243, 243, 243);
+
+  transition: 1s;
+}
+
+.review-card img {
+  background: #ececdd;
+
+  width: 140px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+#autor {
+  font-size: 1.7rem;
+  transition: 1s;
+}
+
+#job {
+  font-size: 1.3rem;
+  font-weight: 300;
+  transition: 1s;
+}
+
+#info {
+  font-size: 1rem;
+  color: rgb(243, 243, 243);
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.btn-style {
+  background: rgb(118, 171, 233);
+  color: #fffff9;
+  font-size: 30px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-style:active {
+  color: #ccc;
+}
+
+.random-btn {
+  border: none;
+  outline: none;
+
+  padding: 10px 40px;
+  color: rgb(118, 171, 233);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.random-btn:active {
+  background-color: #ccc;
+}
